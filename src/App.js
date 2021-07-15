@@ -4,6 +4,7 @@ import Home from './containers/Home';
 import ProjectList from './containers/ProjectList';
 import NavBar from './components/NavBar';
 import ArtworkList from './containers/ArtworkList';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/artworks" component={ArtworkList} />
           </Switch>
         </div>
+      <Footer />
       </Router>
     );
   }
