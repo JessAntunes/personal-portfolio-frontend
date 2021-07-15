@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './containers/Home';
+import ProjectList from './containers/ProjectList';
+import NavBar from './components/NavBar';
+import ArtworkList from './containers/ArtworkList';
 
 class App extends Component {
+
+  constructor() {
+    super();
+  }
+
   render() {
     return (
       <Router>
@@ -10,7 +18,7 @@ class App extends Component {
         <div className="container">
           <Switch>
             <Route exact path="/" component={ Home } />
-            <Route exact path="/pets" component={PetList} />
+            <Route exact path="/pets" component={ArtworkList} />
             <Route exact path="/artworks" component={ArtworkList} />
           </Switch>
         </div>
