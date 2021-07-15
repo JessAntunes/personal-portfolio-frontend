@@ -21,7 +21,7 @@ export default function ButtonAppBar() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="navbar">
       <AppBar style={{ background: '#424242' }} position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
