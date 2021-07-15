@@ -8,9 +8,9 @@ export default function SkillsCard() {
 
     return (
 
-        <Card border="info" style={{ width: '24rem' }}>
+        <Card border="info" style={{ width: '24rem' }} className="skills-card">
             <Card.Body>
-            <Card.Title>Skills</Card.Title>
+            <h4>Skills</h4>
             <Row >
                 <Col ><Chip variant="outlined" size="small" label="Ruby" /></Col>
                 <Col ><Chip variant="outlined" size="small" label="JavaScript" /></Col>
