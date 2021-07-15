@@ -13,6 +13,62 @@ code {
 }
 
 .home-banner {
-  background-image: "https://i.ibb.co/ckZxwwf/Majestic-AF-Lion-Yellow.jpg";
-  size: 1600px x 1050px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLXoINf3X3UurMdrIHl91tbI3TxfR8yNMcYecVvdzJct8ZnKWlHwtqdnXAtMUVr4A0xZKCcpIhVPfhbjvy4mkM0s4O44S9npdEYKWHJbiNkZwbtsJ_EogfJ3gNppHFYNSfYPlv12yifT2U7Ji3-xOrU=w1596-h1196-no?authuser=0');
+  width: fit;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+  filter: blur(1px);
+  /* -webkit-filter: blur(8px); */
+}
+
+.home-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.642); /* Black w/opacity/see-through */
+  color: rgb(251, 248, 248);
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 125px 100px 100px 100px;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.home-text h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  color: #06d3ee;
+  /* margin-top: 70px; */
+  padding: 100 0 50 0;
+}
+
+.skills-card {
+  margin-left: 50px;
+  align-content: center;
+  border-color: #06d3ee;
+}
+
+.skills-card h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  color:#06d3ee;
+  margin-bottom: 20px;
+}
+
+.skills-card Button {
+  margin-top: 20px;
+  border-color:#06d3ee;
+}
+
+#navbar {
+  z-index: 2;
 }
