@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
-export class Navbar extends Component {
+export class NavBar extends Component {
   render() {
     return (
       <nav className="indigo darken-3">
@@ -22,4 +22,4 @@ export class Navbar extends Component {
   }
 }
 
-export default Navbar
+export default NavBar
