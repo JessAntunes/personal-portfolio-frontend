@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 
 class App extends Component {
 
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   render() {
     return (
@@ -19,7 +19,7 @@ class App extends Component {
         <div className="container">
           <Switch>
             <Route exact path="/" component={ Home } />
-            <Route exact path="/pets" component={ ArtworkList } />
+            <Route exact path="/projects" component={ ProjectList } />
             <Route exact path="/artworks" component={ ArtworkList } />
           </Switch>
         </div>

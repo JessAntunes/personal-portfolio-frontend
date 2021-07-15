@@ -14,7 +14,7 @@ export class ArtworkList extends Component {
     }
 
     render() {
-        const artworks = this.props.artworks.map(( artwork, i ) => ({artwork}))
+        const artworks = this.props.artworks.map(( artwork, i ) => <ArtworkItem key={i} artwork={ artwork } />)
         return (
             <div>
               <h3>Artwork</h3>

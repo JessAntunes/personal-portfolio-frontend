@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, Col, Row } from 'react-bootstrap';
+import { Card, Button} from 'react-bootstrap';
 
 const ProjectItem = ({ project }) => {
     return (
