@@ -2,8 +2,14 @@ import React from 'react';
 
 export default function HomeBanner() {
     return (
-        <div class="home-banner">
-            {/* <img src="https://i.ibb.co/ckZxwwf/Majestic-AF-Lion-Yellow.jpg" alt="Majestic-AF-Lion-Yellow" border="0"/> */}
-        </div>
+        <>
+            <div className="home-banner">
+            
+            </div>
+            <div className="home-text">
+                <h1>Jessica Antunes</h1>
+                <h4>Artist / Software Engineer</h4>
+            </div>
+        </>
     )
 }
