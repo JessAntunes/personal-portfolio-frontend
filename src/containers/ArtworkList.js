@@ -9,6 +9,8 @@ import { fetchArtworks } from '../actions/index'
 
 export class ArtworkList extends Component {
 
+    
+
     componentDidMount() {
         this.props.fetchArtworks();
     }
