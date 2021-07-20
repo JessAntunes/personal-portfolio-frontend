@@ -12,7 +12,7 @@ export class NavBar extends Component {
       <>
         <Navbar bg="dark" variant="dark">
           <Container>
-          <Navbar.Brand href="/">Jessica Antunes</Navbar.Brand>
+          <Navbar.Brand href="/">Jessica Antunes Portfolio</Navbar.Brand>
           <Nav className="me-right">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
