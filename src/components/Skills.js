@@ -31,7 +31,7 @@ export class SkillsCard extends Component {
                     <Col ><Chip variant="outlined" size="small" label="HTML5/CSS" /></Col>
                     <Col ><Chip variant="outlined" size="small" label="Adobe Photoshop" /></Col>
                 </Row>
-                <Button variant="outline-dark" >Projects</Button>
+                <Button variant="outline-dark" href="/projects">Projects</Button>
                 </Card.Body>
             </Card>
         )
