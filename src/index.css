@@ -91,8 +91,35 @@ code {
   width: 75%;
 }
 
-img {
+.img-artwork {
   height: 200px;
   width: 100%;
 
+}
+
+.contact-container {
+  height: 173px;
+  background-color: #fafafa;
+}
+
+.contact-info h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.custom-contact h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.contact-row {
+  padding: 30px 50px 50px 20px;
+}
+
+.education-row {
+  margin: 0;
+}
+
+.middle-row {
+  margin-top: 50px;
 }
