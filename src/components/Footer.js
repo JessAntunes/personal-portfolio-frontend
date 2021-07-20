@@ -1,28 +1,22 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
 export class Footer extends Component {
     render () {
         return (
             <>
-            <div className="footer">
-                <row>
-                    <col className="contact"></col>
-                    <col className="email"></col>
-                </row>
-            </div>
-
-            <div className="container">
-                <NavLink to="/" className="brand-logo">Jessica Antunes</NavLink>
-                <ul className="right">
-                <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/projects">Project</NavLink></li>
-                    <li><NavLink to="/artworks">Artwork</NavLink></li>
-                </ul>
-            </div>
-            </>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+          <Navbar.Text href="/">© 2021 Jessica Antunes. All rights reserved</Navbar.Text>
+          <Nav className="me-right">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/artworks">Artwork</Nav.Link>
+          </Nav>
+          </Container>
+        </Navbar>
+      </>
         )
     }
 }

@@ -70,6 +70,7 @@ code {
 }
 
 #navbar {
+  background-color: rgb(37, 42, 42);
   z-index: 2;
 }
 
