@@ -13,7 +13,10 @@ export class ProjectList extends Component {
     const projects = this.props.projects.map(( project, i ) => <ProjectItem key={i} project={ project } />)
     return (
       <>
-        <h3>Projects</h3>
+        <div className="home-banner"></div>
+        <div className="home-text">
+          <h1>Projects</h1>
+        </div>
         <ul className="collection">
           { projects }
         </ul>
