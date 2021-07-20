@@ -72,3 +72,26 @@ code {
 #navbar {
   z-index: 2;
 }
+
+.collection {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 0;
+}
+
+.art-collection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 0;
+}
+
+.art-collection-item {
+  height: 75%;
+  width: 75%;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+
+}

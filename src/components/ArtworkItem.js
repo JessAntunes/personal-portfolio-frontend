@@ -4,9 +4,9 @@ import React from 'react'
 
 const ArtworkItem = ({ artwork }) => {
     return (
-    <li className="collection-item">
+    <div className="art-collection-item">
        <img src={artwork.photo} alt={artwork.type} />
-    </li>
+    </div>
     );
 }
 

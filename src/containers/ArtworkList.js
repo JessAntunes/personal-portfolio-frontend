@@ -20,7 +20,7 @@ export class ArtworkList extends Component {
         return (
             <div>
               <h3>Artwork</h3>
-              <ul className="collection">
+              <ul className="art-collection">
                 { artworks }
               </ul>
           
