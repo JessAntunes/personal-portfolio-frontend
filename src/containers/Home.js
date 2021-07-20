@@ -14,6 +14,9 @@ export class Home extends Component {
             <Col className="skills"> <Skills /> </Col>
             <Col className="about"> <About /> </Col> 
         </Row>
+        <Row className="education-row">
+          <img src="https://i.ibb.co/0nyRxSv/education-graphic.png" alt="education-graphic" border="0"></img>
+        </Row>
       </>
     )
   }
