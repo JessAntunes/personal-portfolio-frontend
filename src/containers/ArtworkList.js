@@ -19,7 +19,10 @@ export class ArtworkList extends Component {
         const artworks = this.props.artworks.map(( artwork, i ) => <ArtworkItem key={i} artwork={ artwork } />)
         return (
             <div>
-              <h3>Artwork</h3>
+                <div className="home-banner"></div>
+                <div className="home-text">
+                    <h1>Artwork</h1>
+                </div>
               <ul className="art-collection">
                 { artworks }
               </ul>
