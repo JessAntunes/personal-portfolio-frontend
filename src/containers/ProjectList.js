@@ -12,12 +12,12 @@ export class ProjectList extends Component {
   render() {
     const projects = this.props.projects.map(( project, i ) => <ProjectItem key={i} project={ project } />)
     return (
-      <div>
+      <>
         <h3>Projects</h3>
         <ul className="collection">
           { projects }
         </ul>
-      </div>
+      </>
     )
   }
 }
