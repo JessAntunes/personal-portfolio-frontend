@@ -13,20 +13,20 @@ code {
 }
 
 .home-banner {
-  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLXoINf3X3UurMdrIHl91tbI3TxfR8yNMcYecVvdzJct8ZnKWlHwtqdnXAtMUVr4A0xZKCcpIhVPfhbjvy4mkM0s4O44S9npdEYKWHJbiNkZwbtsJ_EogfJ3gNppHFYNSfYPlv12yifT2U7Ji3-xOrU=w1596-h1196-no?authuser=0');
+  background-image: url('https://i.ibb.co/XJKmFs4/Majestic-AF-Lion-Man-Holding-a-Poster-Mockup.jpg');
   width: fit;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 50px;
-  filter: blur(1px);
+  /* filter: blur(1px); */
   /* -webkit-filter: blur(8px); */
 }
 
 .home-text {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.642); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
   color: rgb(251, 248, 248);
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */

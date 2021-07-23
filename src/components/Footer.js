@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 
 
-export class Footer extends Component {
-    render () {
+const Footer = () => {
+   
         return (
             <>
                 <div className="contact-container">
@@ -31,7 +31,7 @@ export class Footer extends Component {
                 </Navbar>
       </>
         )
-    }
+    
 }
 
 export default Footer

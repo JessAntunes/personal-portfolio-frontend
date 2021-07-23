@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 
-export class About extends Component {
-    render () {
+const About = () => {
         return (
             <>
                 <h2>About</h2>
@@ -11,7 +10,6 @@ export class About extends Component {
                 <Button variant="outline-dark" href="/artworks">Artwork</Button>
             </>
         )
-    }
 }
 
 export default About

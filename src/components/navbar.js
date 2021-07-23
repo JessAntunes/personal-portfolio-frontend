@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
 
 
 
-export class NavBar extends Component {
-  render() {
+const NavBar = () => {
     return (
 
       <>
@@ -22,7 +21,6 @@ export class NavBar extends Component {
         </Navbar>
       </>
     );
-  }
 }
 
 export default NavBar

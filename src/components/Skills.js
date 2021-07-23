@@ -1,11 +1,10 @@
-import React, { Component }from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, Col, Row } from 'react-bootstrap';
 import Chip from '@material-ui/core/Chip';
 
 
-export class SkillsCard extends Component {
-    render() {
+const SkillsCard = () => {
         return (
 
             <Card border="info" style={{ width: '24rem' }} className="skills-card">
@@ -35,7 +34,6 @@ export class SkillsCard extends Component {
                 </Card.Body>
             </Card>
         )
-    }
 }
 
 export default SkillsCard

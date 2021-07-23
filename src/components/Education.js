@@ -1,13 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export class Education extends Component {
-    render () {
-        return (
-            <div className="education">
-                {/* <img src=" " /> */}
-            </div>
-        )
-    }
+const Education = () => {
+    return (
+         <div className="education"></div>
+    )
+
 }
 
 export default Education
