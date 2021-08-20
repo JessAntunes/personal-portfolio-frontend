@@ -5,12 +5,8 @@ import { connect } from 'react-redux'
 import { fetchArtworks } from '../actions/index'
 
 
-
-
-
 export class ArtworkList extends Component {
 
-    
 
     componentDidMount() {
         this.props.fetchArtworks();
@@ -18,6 +14,7 @@ export class ArtworkList extends Component {
 
     render() {
         const artworks = this.props.artworks.map(( artwork, i ) => <ArtworkItem key={i} artwork={ artwork } />)
+        
         return (
             <div>
                 <ArtworkBanner />
@@ -30,9 +27,12 @@ export class ArtworkList extends Component {
 }
 
 const mapStateToProps = state => {
+    
     return {
       artworks: state.artworks
     }
 }
+
+
 
 export default connect(mapStateToProps, { fetchArtworks })(ArtworkList)

@@ -123,3 +123,8 @@ code {
 .middle-row {
   margin-top: 50px;
 }
+
+.container {
+  margin: 0px !important;
+  display: contents;
+}

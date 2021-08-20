@@ -6,6 +6,7 @@ import { fetchProjects } from '../actions/index'
 
 
 export class ProjectList extends Component {
+  
   componentDidMount(){
     this.props.fetchProjects()
   }
